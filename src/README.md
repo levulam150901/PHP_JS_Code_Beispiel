@@ -9,7 +9,7 @@
 
 # Source Code
 
-you can find the source code of pizzeria ../PHP_JS_Code_Beispiel/scr/Praktikum/Prak5
+* you can find the source code of pizzeria ../PHP_JS_Code_Beispiel/scr/Praktikum/Prak5
 
 # Access to MariaDB
 
