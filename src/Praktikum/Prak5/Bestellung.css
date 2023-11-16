@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0.2em;
+    padding: 0.2em;
+}
+
+body{
+    background-image: url("pizza_background.jpg");
+    font:1em Verdana;
+    background-size: cover;
+}
+
+img {
+    width: 13em;
+    height: 13em;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #F1F1F0;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5em;
+    letter-spacing: 0.09em;
+    padding: 1%;
+    border-radius: 0.5em;
+    border-width: 0.05em;
+    border-style: solid;
+    color: white;
+}
+
+figcaption{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+}
+
+.order_section{
+    display: flex;
+    color: white;
+}
+
+.outline-section {
+    flex: 2;
+}
+
+.pizza_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.article_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.article_div:hover {
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.09em;
+    padding: 0;
+}
+
+.warenkorb_section {
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+    right: 0;
+    color: black;
+    background-color: lightyellow;
+    width: 20em;
+    height: 18em;
+    border-radius: 1em;
+    margin: 0;
+    padding: 0;
+}
+#BestellungsInfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+select {
+    width: 10em;
+    border-style: solid;
+    border-radius: 8%;
+    border-color: black;
+    border-width: 0.3em;
+    margin: 0;
+    padding: 0;
+}
+
+option {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#address_input {
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.pizzaInfos {
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15em;
+    width: 25em;
+    margin: 1em auto;
+}
+
+.warning {
+    color: white;
+}
+
+.vertical_nav {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical_li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.horizontal_nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 1em;
+}
+.horizontal_nav .horizontal-li{
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+}
+
+.btn {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    border-style: none;
+    background-color: #C8102E;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#gesamtpreis {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+#submit_btn {
+    display: none;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 420px){
+    body {
+        font-size: 0.45em;
+    }
+    body img {
+        font-size: inherit;
+    }
+
+    .warenkorb_section {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        top: unset;
+        left: unset;
+        width: 45%;
+        height: 35vh;
+    }
+
+    .warenkorb_section * {
+        font-size: 1.35em;
+    }
+
+    .warenkorb_section h2 {
+        font-size: 2.7em;
+    }
+}
+
+
