@@ -5,7 +5,7 @@
 # Get code and create project
 
 * in terminal: git clone https://github.com/levulam150901/PHP_JS_Code_Beispiel.git
-* open project: ../PHP_JS_Code_Beispiel/scr
+* open project in IDE: ../PHP_JS_Code_Beispiel/scr
 
 # Source Code
 
