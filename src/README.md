@@ -16,6 +16,13 @@
 * user: root
 * password: ganzGeheim
 
+# Access phpMyAdmin
+
+* http://localhost:8085
+* same user and password
+* use Schema: pizzaservice
+* you can add as many pizza type as you want (for picture value in article table you can use pizza.gif as default)
+
 # Setup environment
 
 1) Build,Execution,Deployment/Deployment: Create new local or mounted folder
